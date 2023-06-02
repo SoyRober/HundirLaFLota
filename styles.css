@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+center {
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+canvas {
+    border: 2px solid black;
+    background-color: whi;
+}
+
+aside {
+    width: 50vw;
+}
+
+#log {
+    margin-top: -2%;
+    resize: none;
+    height: 60vh;
+}
+
+#reset {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background: linear-gradient(to bottom, #fde43f, #ffee84);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
