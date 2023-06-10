@@ -3,36 +3,26 @@
     {
       "nombre": "Portaviones",
       "vida": 5,
-      "x" : 0,
-      "y" : 0,
       "orientacion" : ""
     },
     {
       "nombre": "Acorazado",
       "vida": 4,
-      "x" : 0,
-      "y" : 0,
       "orientacion" : ""
     },
     {
       "nombre": "Destructor",
       "vida": 3,
-      "x" : 0,
-      "y" : 0,
       "orientacion" : ""
     },
     {
       "nombre": "Submarino",
       "vida": 3,
-      "x" : 0,
-      "y" : 0,
       "orientacion" : ""
     },
     {
       "nombre": "Buque de Guerra",
       "vida": 2,
-      "x" : 0,
-      "y" : 0,
       "orientacion" : ""
     }
   ]
