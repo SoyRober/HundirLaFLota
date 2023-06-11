@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+center {
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+canvas {
+    border: 2px solid black;
+    margin: auto;
+}
+
+aside {
+    width: 50vw;
+    color: black;
+    box-sizing: border-box;
+    font-weight: bold;
+    float:left;
+    width:50%;
+    padding:10px;
+}
+
+#log {
+    margin-top: -5vh;
+    resize: none;
+    height: 60vh;
+    width: 30vw;
+    outline: none;
+    overflow: auto;
+    border-radius: 12px;
+}
+
+#reset {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+body {
+    background-image: url("img/fondo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+@media (max-width: 25cm) {
+    #log {
+        width: 70vw;
+        height: 20vh;
+        align-items: last baseline; /* Centrar horizontalmente */
+    }
+
+    aside {
+        margin-top: 25vh;
+    }
+    
+    body {
+        margin: 0 auto;
+    }
+}
