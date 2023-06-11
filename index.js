@@ -162,6 +162,7 @@ function disparoAleatorio() {
       rellenarCelda(contexto1, fila, col, "blue");
       tableroJugador[col][fila] = "X";
       clicJugador1 = false;
+      log.value += "Agua para la máquina!\n";
     }
 
     // Verifica si la máquina ha ganado
@@ -238,7 +239,8 @@ canvas2.addEventListener("click", function (event) {
         rellenarCelda(contexto2, col, fila, "blue");
         tableroMaquina[col][fila] = "X";
         clicJugador1 = true;
-        disparoAleatorio();
+        log.value += "Agua para el jugador!\n";
+        setTimeout(disparoAleatorio, 1000);
       }
 
       // Verifica si el jugador ha ganado
@@ -246,6 +248,7 @@ canvas2.addEventListener("click", function (event) {
         log.value += "El jugador ha ganado!";
         finalPartida = true;
       }
+      autoScroll();
     }
   }
 });
@@ -344,6 +347,3 @@ inicio();
 function autoScroll() {
   log.scrollTop = log.scrollHeight;
 }
-
-// Escucha el evento "input" del textarea
-log.addEventListener("input", autoScroll);
